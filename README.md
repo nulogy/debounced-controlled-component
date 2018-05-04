@@ -8,7 +8,7 @@ A state container to debounce a controlled component.
   value={initialValue}
   onChange={e => e.target.value}
 >{ (value, debouncedOnChange) =>
-  <TextField
+  <input
     value={value}
     onChange={debouncedOnChange}
   />
